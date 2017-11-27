@@ -1,6 +1,7 @@
 # OneDrive-Upload
-This project is a simple implementation of Tawalaya's Java SDK for the OneDrive API (https://github.com/tawalaya/OneDriveJavaSDK)
+This project is a simple implementation/wrapper of Tawalaya's Java SDK for the OneDrive API (https://github.com/tawalaya/OneDriveJavaSDK)
 It should be compiled to a runnable jar file which allows a server to access a OneDrive account without prompting for authentication. It takes one argument (the file being uploaded), and uploads it to the root directory of the OneDrive.
+
 Preconidtions to it running successfully:
 	1) You need to have created a microsoft app at https://apps.dev.microsoft.com
 	2) Provide the client id and client secret of this app in the credentials.properties file
